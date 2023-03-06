@@ -83,3 +83,13 @@ html {
     width:40%
 }
 
+#__section__3 .__content__item {
+    background-color: pink;
+    width:40%;
+
+}
+
+#__section__3 .__content__item__2 {
+    background-color: aqua;
+    width: 60%;
+}
