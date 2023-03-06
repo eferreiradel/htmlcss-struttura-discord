@@ -28,7 +28,7 @@ html {
 .__nav__item__container {
     border: var();
     justify-content: space-around;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     margin: auto;
     width: 80%;
     max-width: 1200px;
@@ -52,3 +52,17 @@ html {
     flex-grow: 1;
    
 }
+#__section__1{
+    background-color: blue;
+    
+}
+
+#__content__item__1{
+    background-color: bisque;
+    margin-top: 3.125em;
+    margin-bottom: 3.125em;
+    width: 905px;
+    height: 396px;
+}
+
+
