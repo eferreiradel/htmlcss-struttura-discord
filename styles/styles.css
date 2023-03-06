@@ -21,6 +21,10 @@ html {
     justify-content: center;
 }
 
+.__flex__start {
+    justify-content: flex-start;
+}
+
 #__nav__bar {
     background-color: var(--nav__bar);
 }
@@ -52,12 +56,13 @@ html {
     flex-grow: 1;
    
 }
-#__section__1{
+.__content__section{
     background-color: blue;
     
 }
 
-#__content__item__1{
+
+.__content__container{
     background-color: bisque;
     margin-top: 3.125em;
     margin-bottom: 3.125em;
@@ -65,4 +70,16 @@ html {
     height: 396px;
 }
 
+.__content__item {
+    background-color: rgb(89, 19, 19);
+    height:100%;
+    width: 60%
+
+}
+
+.__content__item__2{
+    background-color: pink;
+    height: 100%;
+    width:40%
+}
 
