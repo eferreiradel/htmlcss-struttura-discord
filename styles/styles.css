@@ -69,27 +69,23 @@ button {
     color: white;
 }
 #nav__bar .flex__item {
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    background-color: ;
     width: 80%;
     max-width: 1500px;
 }
 #nav__bar .flex__content > a {
-    margin: 0 1em auto; 
+    margin: 1em;
 }
 #nav__bar .flex__content:first-child {
     text-align: start;
-    flex-grow: 1;
 }
 #nav__bar .flex__content:nth-child(2) {
     text-align: center;
-    flex-grow: 3;
 }
 #nav__bar .flex__content:nth-child(3) {
     text-align: end;
     color: #535659;
-    flex-grow: 1;
 }
 
 
@@ -99,17 +95,20 @@ button {
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+    width:100%;
+    max-width: 1906px;
+    height: 497px;
 
 }  
 #header__section .flex__item {
-    background-color: ;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
     margin:  auto;
-    width: 1000px;
-    height: 500px;
+    width: 902px;
+    height: 500px;;
 }
 
 #header__section h1 ,p {
