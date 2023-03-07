@@ -1,30 +1,38 @@
 html {
-    --border: 2px dotted rgb(0, 0, 0);
+    /* --border: 2px dotted rgb(0, 0, 0); */
     --padding: 1em 1em;
     --margin: 1em 0;
     --item--margin: 1em auto;
     --nav__bar: lightblue;
     --discord--blue: #3161E0;
-
+    font-size: 20px;;
 }
 body {
+    border: var(--border);
     font-family: 'Courier New', Courier, monospace;
     background-color: rgb(59, 59, 59);
 }
 
 * {
     box-sizing: border-box;
-    font-size: 16px;
     font-family: sans-serif;
     margin: 0;
     padding: 0;
 }
 button {
     border: none;
-    padding: 0.5em;
+    padding: 1em 1.5em;
     border-radius: 25px;
 }
 
+.title {
+    font-size: 3rem;
+    margin-bottom: 1em;
+}
+.sub-title{
+    font-size: 2rem;
+    margin-bottom: 1em;;
+}
 
 /* FLEX__BOX__________________________ */
 .flex__container {
@@ -33,11 +41,11 @@ button {
     justify-content: center;    
 }
 .flex__item {
-    margin: auto;
+    margin: 3em auto;
     border: var(--border);
     display: flex;
-    justify-content: space-between;
-    width: 70%;
+    justify-content: center;
+    width: 50%;
 }
 .flex__content {
     padding:var(--padding)
@@ -46,6 +54,12 @@ button {
     background-color: darkgray;
 }
 
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
 
 
 /* HEADER__NAV______________________ */
@@ -55,16 +69,16 @@ button {
     color: white;
 }
 #nav__bar .flex__item {
+    justify-content: center;
     align-items: center;
     background-color: ;
     width: 80%;
     max-width: 1500px;
 }
 #nav__bar .flex__content > a {
-    margin: 0 1em; 
+    margin: 0 1em auto; 
 }
 #nav__bar .flex__content:first-child {
-    background-color: ;
     text-align: start;
     flex-grow: 1;
 }
@@ -73,8 +87,7 @@ button {
     flex-grow: 3;
 }
 #nav__bar .flex__content:nth-child(3) {
-    border-radius: 50px;
-    text-align: center;
+    text-align: end;
     color: #535659;
     flex-grow: 1;
 }
@@ -89,9 +102,29 @@ button {
 
 }  
 #header__section .flex__item {
+    background-color: ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
     margin:  auto;
     width: 1000px;
     height: 500px;
+}
+
+#header__section h1 ,p {
+    text-align: center;
+    margin: 0.5em auto;
+}
+
+#header__section .flex__content:nth-child(2){
+    gap: 1em;
+}
+
+#header__section button:last-of-type{
+    margin-left: 2em;
+    background-color: black;
+    color: white;
 }
 
 
@@ -99,19 +132,19 @@ button {
 /* MAIN__SECTION--1 */
 
 #main__section--1 {
+    background-color: white;
 }
 #main__section--1 .flex__item {
-    margin: auto;
-    width: 1250px;
-    height: 500px;
+    align-items: flex-start;
 }
 #main__section--1 .flex__content:nth-child(1) {
-    background-color: grey;
-    flex-grow:2;
 }
+#main__section--1 img {
+}
+
 #main__section--1 .flex__content:nth-child(2) {
-    background-color: lightgray;
     flex-grow: 1;
+    padding-top: 3em;
 }
 
 
