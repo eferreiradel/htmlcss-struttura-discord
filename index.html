@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"/>
     <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,57 +15,67 @@
 </head>
 <body>
     <header>
-        <!-- NAV__BAR -->
-        <div id="__nav__bar">
-            <nav>
-                <div class="__nav__item__container __flex">
-                    <div class="__nav__flex__item" id="__logo">
-                        <p>
-                            Logo
-                        </p>
-                    </div>
-                    <div class="__nav__flex__item" id="__link">
-                        <a>link</a>
-                        <a>link</a>
-                        <a>link</a>
-                        <a>link</a>
-                    </div>
-                    <div class="__nav__flex__item" id="__login">
-                        <p>
-                            Login
-                        </p>
-                    </div>
+        <header class="flex__container" id="nav__bar">
+            <nav class="flex__item">
+                <div class="flex__content">
+                    <img src="./img/logo.svg" alt="Discord logo">
+                </div>
+                <div class="flex__content">
+                    <a>Scarica</a>
+                    <a>Perchè Discord</a>
+                    <a>Nitro</a>
+                    <a>Sicurezza</a>
+                    <a">Assistenza</a>
+                </div>
+                <div class="flex__content">
+                    <button>Accedi</button>
                 </div>
             </nav>
-        </div>
-        <div class="__content__section __flex" id="__section__1">
-            <section class="__content__container _flex" id="__section2">
-                    <div></div>
-                    <div></div>
-                </div>
-            </section>
-        </div>
-        <!-- NAV__BAR -->
+        </header>
+<!-- HEADER__SECTION -->
+        <section class="flex__container section" id="header__section">
+            <div class="flex__item">
+            </div>
+        </section>
     </header>
-    <section>
-        <div class="__content__section __flex " id="__section__2">
-            <div class="__content__container __flex __flex__start" id="__section__2" >
-                <div class="__content__item">
-                </div>
-                <div class="__content__item__2">
-                </div>
+    <main>
+<!-- MAIN__SECTION__1 -->
+        <section id="main__section--1" class="flex__container">
+            <div class="flex__item bg__grey">
+                <div class="flex__content"></div>
+                <div class="flex__content"></div>
             </div>
-        </div>
-    </section>
-    <section>
-        <div class="__content__section __flex " id="__section__3">
-            <div class="__content__container __flex __flex__start" id="__section__2" >
-                <div class="__content__item">
-                </div>
-                <div class="__content__item__2">
-                </div>
+        </section>
+<!-- MAIN__SECTION--2 -->
+        <section id="main__section--2" class="flex__container">
+            <div class="flex__item">
+                <div class="flex__content"></div>
+                <div class="flex__content"></div>
+             </div>
+        </section>
+<!-- MAIN__SECTION__3 -->
+        <section id="main__section--3" class="flex__container">
+            <div class="flex__item bg__grey">
+                <div class="flex__content"></div>
+                <div class="flex__content"></div>
             </div>
-        </div>
-    </section>
+        </section>
+<!-- MAIN__SECTION--4 -->
+        <section id="main__section--4" class="flex__container">
+            <div class="flex__item bg__grey">
+            </div>
+        </section>
+<!-- MAIN__SECTION--5 -->
+        <section id="main__section--5" class="flex__container">
+            <div class="flex__item">
+                <div class="flex__content"></div>
+                <div class="flex__content"></div>
+                <div class="flex__content"></div>
+                <div class="flex__content"></div>
+                <div class="flex__content"></div>
+            </div>
+        </section>
+    </main>
+    
 </body>
 </html>
